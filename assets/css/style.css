@@ -1,0 +1,115 @@
+.body{background-color: #1f252d;}
+.header{
+	width: 90%;
+	margin-left:5%;
+	margin-right:5%;
+	background-color: black;
+	vertical-align:center;
+	margin-top: 20px;
+}
+#Collector{
+	width: 98%;
+	margin-left: 1%;
+	margin-right: 1%;
+	background-color: #2f050c;
+}
+.instructions{
+	width:90%;
+	height: 45%;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: Black;
+	color: white;
+}
+#numberToGet{
+	color: white;
+	height: 32px;
+	font-size: 28px;
+	padding-top: 5px;
+	padding-bottom:5px;
+}
+.numberTo{
+	margin-left:5%; margin-right:5%; background-color: black;
+}
+.winsAndLosses{
+	color: white;
+	height: 62px;
+	font-size: 28px;
+	padding-top: 15px;
+	background-color: black;
+	margin-left:5%;
+	margin-right:5%;
+}
+.gems{
+	background-color: black;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+#one, #two, #three, #four{
+width:150px; height:150px;
+border-radius: 40px;
+margin-top:10px;
+margin-bottom:10px;
+
+
+
+}
+#one{
+	margin-left:4%;
+	margin-right:14%;
+	border-color:blue;
+	border-style:solid;
+border-width:3px;
+}
+#two{
+	border-color:green;
+	border-style:solid;
+border-width:3px;
+}
+#three{
+	border-color:#FF69B4;
+	border-style:solid;
+border-width:3px;
+}
+#four{
+	border-color:yellow;
+	border-style:solid;
+border-width:3px;
+}
+#two, #three{
+	margin-right:14%;
+}
+.userTotal{
+	margin-right:5%;
+	margin-left:5%;
+	color: white;
+	background-color: black;
+	font-size: 48px;
+}
+
+.header, .numberTo, .instructions, .winsAndLosses, .userTotal, .gems {
+	
+	border-color: grey;
+	border-width:1.5px;
+	border-style: solid;
+
+}
+.numberTo, .instructions, .winsAndLosses, .userTotal, .gems {
+	margin-top: 10px;
+}
+.footer{
+	margin-left: 5%;
+	margin-right: 62%;
+	margin-top: 10px;
+	width: 350px;
+	height:45px;
+}
+#collectorLogo{
+	height:99px;
+	margin-left: 7%;
+	margin-right:3%;
+	background-color: black;
+	width: 90%;
+	margin-left:5%;
+	margin-right:5%;
+}
