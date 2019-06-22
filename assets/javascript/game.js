@@ -32,7 +32,7 @@ function reset(){
       $('#finalTotal').text(userTotal);
       } 
 //adds the wins to the userTotal
-function yay(){
+function yes(){
 alert("You won!");
   wins++; 
   $('#numberWins').text(wins);
@@ -52,7 +52,7 @@ alert ("You lose!");
     $('#finalTotal').text(userTotal); 
           //sets win/lose conditions
         if (userTotal == Random){
-          yay();
+          yes();
         }
         else if ( userTotal > Random){
           loser();
@@ -63,7 +63,7 @@ alert ("You lose!");
     console.log("New userTotal= " + userTotal);
     $('#finalTotal').text(userTotal); 
         if (userTotal == Random){
-          yay();
+          yes();
         }
         else if ( userTotal > Random){
           loser();
@@ -75,7 +75,7 @@ alert ("You lose!");
     $('#finalTotal').text(userTotal);
 //sets win/lose conditions
           if (userTotal == Random){
-          yay();
+          yes();
         }
         else if ( userTotal > Random){
           loser();
@@ -87,7 +87,7 @@ alert ("You lose!");
     $('#finalTotal').text(userTotal); 
       
           if (userTotal == Random){
-          yay();
+          yes();
         }
         else if ( userTotal > Random){
           loser();
