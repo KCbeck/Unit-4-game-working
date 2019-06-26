@@ -9,51 +9,52 @@
 </head>
 
 <!-- first body tag -->
-<body class="body" style="margin-left:0px;">
-	<div class="header" style="height:100px">
-<!-- crystal initial tag -->
+<body class="body">
+<!-- header -->
+
+	<div class="header" style="padding-top: 15px; padding-bottom: 15px";>
+<!-- crystal collector tag -->
 		<img id="collectorLogo" src="assets/images/Crystal Collector 327883167395865.png"  alt="Collector">
 	</div>
+<div> 
+	<h2 id="instructions" style="border-style:solid; border-width: 3px; border-color: grey;">The computer will generate a random number, youre job is to click on each diamond witch will have its own hidden number the goal is to click(collect) the exact number of diamonds without going over if you Win your Win will be added to your total, if you lose your lose will be added to the losing total, you can play as many rounds as you want you.</h2>
+</div>
+<div id="box" >
+<h1></h2>
+	</div >
+<!-- Scores Numbers -->
+<div id="twinTables">
+	<table id="gameScores" style="text-align: center; margin-left:5%; margin-right:5%; width: 90%";>
+		<tr>
+		  <th id=randomNumber style="width:25%;">Random Number:</th>
+		  <th id=win style="width:25%;">Wins:</th>
+		  <th id=losses style="width:25%;">Losses:</th>
+		  <th style="width:25%;">Your Score is:</th>
+	   </tr>
+	   <tr>
+		  <td style="width:25%;" id="random1"></td>
+		  <td style="width:25%;" id="gameWins"></td>
+		  <td style="width:25%;" id="gameLosses"></td>
+		  <td style="width:25%;" id="totalScoreIs"></td>
+	   </tr>
+	 </table>
 
-<!-- The instructions tag	 -->
-	<div class="instructions" style="height:60px; padding-top:15px;">
-		<h1 id="directions"  style="font-size: 1.27em;">At the beginning of the game you will be given a random number. You will then be given 4 seperate crystals which have their own internal random value. You will click on each crystal too add to the Final Total, if you get the right number you win, if not you lose.</h2>
-		
-		<!-- instructions closing tag -->
+	<!-- gems table-->
+	
+	<table id=gameGems>
+		<tr>
+		  <th ><img src="assets/images/blue.jpg" class="bloodDiamond" id="bloodDiamond1" alt="Blue Blood Diamond"><th>
+		  <th ><img src="assets/images/green.jpg"  class="bloodDiamond" id="bloodDiamond2" alt="Green Blood Diamond"><th>
+		  <th ><img src="assets/images/red.jpg" class="bloodDiamond" id= "bloodDiamond3" alt="Red Blood Diamond"></th>
+		  <th ><img src="assets/images/yellow.jpg"  class="bloodDiamond" id="bloodDiamond4" alt="Yellow Blood Diamond"></th>
+		</tr>
 	</div>
-<!-- number match  -->
-	<div class="numberTo">
-		<h2 id="numberToGet">Number To Get:
-			<span id= "randomNumber"></span>
-		</h2>
-	</div>
-<!-- Wins and losses window -->
-	<div class="winsAndLosses">
-		<h2>Wins:
-			<span id= "numberWins"></span>
-			</br>
-			Losses: 
-			<span id= "numberLosses"></span>
-		</h2>
-		<!-- Closing Tag for wins and losses -->
-	</div> 
-	<!-- gems window -->
-	<div class="gems">
-		<!-- Four individual gems -->
-		<img src="assets/images/blue.jpg" class=gemImage id="one" alt="Blue crystal">
-		<img src="assets/images/green.jpg" class=gemImage id="two" alt="Green crystal">
-		<img src="assets/images/red.jpg" class=gemImage id= "three" alt="Red crystal">
-		<img src="assets/images/yellow.jpg" class=gemImage id= "four" alt="Yellow crystal">
-		<!-- gems window closing tag -->
-	</div>
-	<!-- user total window  -->
-	<div class="userTotal">
-		<h2>Your total score is:
-			<span id="finalTotal"></span>
-		</h2>
-	</div>
+	</table>
+
+
 	<!-- Footer Logo for copyright -->
 	<div class="footer"><img src="https://images.cooltext.com/5301609.png" alt="coded by KC BECK 2019(C)" />
+	
 <!-- script links -->
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
